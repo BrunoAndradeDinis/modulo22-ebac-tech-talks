@@ -1,0 +1,26 @@
+.event {
+  padding: 80 0;
+  background-color: #0c0c0c;
+  background-image: linear-gradient(#1b6ca7, #442bdb);
+
+  .container {
+    display: flex;
+  }
+
+  &__image {
+    max-width: 22.5rem;
+  }
+
+  &__details {
+    margin-right: 40px;
+    &__title {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+
+    &__description {
+      line-height: 22px;
+    }
+  }
+}
