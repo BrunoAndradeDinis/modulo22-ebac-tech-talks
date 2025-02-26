@@ -1,13 +1,30 @@
-*{
+@use "hero";
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 
-body{
+body {
   background-color: antiquewhite;
   color: orangered;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+
+  @media (max-width: 640px) {
+    max-width: 80%;
+  }
+
+  @media (max-width: 1024px) {
+    max-width: 90%;
+  }
 }
