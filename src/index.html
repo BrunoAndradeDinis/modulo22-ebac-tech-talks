@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -38,8 +40,8 @@
     </div>
   </header>
 
-  <section class="event ">
-    <div class="container">
+  <section class="event event__frontend">
+    <div class="container" data-aos="fade-right">
       <div class="event__details">
         <h2 class="event__details__title">
           Front end
@@ -49,7 +51,41 @@
       <img class="event__image" src="./images/frontend.png" alt="Front-end">
     </div>
   </section>
+  <section class="event event__ux-ui event--image-left">
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">
+          UI-UX
+        </h2>
+        <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum neque dolorum recusandae illo veritatis nisi ratione necessitatibus iusto perferendis? Eaque voluptate, ut numquam nostrum optio earum corporis error rem voluptatum.</p>
+      </div>
+      <img class="event__image" src="./images/ui-ux.png" alt="UI-UX">
+    </div>
+  </section>
+  <section class="event event__data-science">
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">
+          Data science
+        </h2>
+        <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum neque dolorum recusandae illo veritatis nisi ratione necessitatibus iusto perferendis? Eaque voluptate, ut numquam nostrum optio earum corporis error rem voluptatum.</p>
+      </div>
+      <img class="event__image" src="./images/data.png" alt="Data science">
+    </div>
+  </section>
+  <section class="event event__backend event--image-left">
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">
+          Backend
+        </h2>
+        <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum neque dolorum recusandae illo veritatis nisi ratione necessitatibus iusto perferendis? Eaque voluptate, ut numquam nostrum optio earum corporis error rem voluptatum.</p>
+      </div>
+      <img class="event__image" src="./images/backend.png" alt="Backend">
+    </div>
+  </section>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 

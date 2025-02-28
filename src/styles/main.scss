@@ -1,3 +1,4 @@
+@use "variables";
 @use "hero";
 @use "./components/infos-bar";
 @use "./components/buttons";
@@ -10,12 +11,7 @@
   text-decoration: none;
   list-style: none;
   font-family: "Roboto", sans-serif;
-  color: #fff;
-}
-
-body {
-  background-color: antiquewhite;
-  color: orangered;
+  color: variables.$textColor;
 }
 
 .container {
